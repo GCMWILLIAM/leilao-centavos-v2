@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.leilao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.info-leilao {
+  flex: 1;
+  padding: 0 20px;
+}
+
+#botaoLance {
+  padding: 15px 25px;
+  font-size: 18px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#botaoLance:hover {
+  background: #218838;
+}
+
+.ultimos-lances {
+  margin-top: 20px;
+}
+
+.ultimos-lances ul {
+  list-style: none;
+  padding-left: 0;
+}
